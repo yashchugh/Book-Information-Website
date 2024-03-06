@@ -1,0 +1,100 @@
+.fc {
+  font-family: Arial, sans-serif;
+  
+  
+}
+
+.fc-header-toolbar {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.fc-header-toolbar button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color:  #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Calendar container styling */
+/* changes the background color */
+.fc-scroller {
+  border: 1px solid  #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(f, f, f, 0.1);
+  background-color:  #a32bef; 
+  
+}
+
+/* Event styling */
+.fc-event {
+  background-color: #007bff;
+  color:  #fff;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Event hover effect */
+.fc-event:hover {
+  background-color: #0056b3;
+}
+
+/* Event title styling */
+.fc-event-title {
+  font-weight: bold;
+}
+
+/* Today's date styling */
+.fc-today {
+  background-color:  #fff;
+}
+
+/* Selected date styling */
+.fc-highlight {
+  background-color: rgba(0, 123, 255, 0.3);
+}
+
+/* Date number styling */
+.fc-day-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; /* Change the text color of the date */
+}
+
+/* Date header styling */
+.fc-day-header {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red; /* Change the text color of the month */
+}
+
+/* Cell header styling */
+.fc-head {
+  border-top: 2px solid #007bff;
+  background-color:  #FF0000;
+}
+
+/* Button styling within popover */
+.fc-popover button {
+  background-color: #007bff;
+  color: #FFF;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.fc-popover button:hover {
+  background-color: #0056b3;
+}
+
+/* .dashboard-content .fc-toolbar-title {
+  color: white; 
+} */

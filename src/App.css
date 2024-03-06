@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ... Your existing code ... */
+
+nav {
+  background-color: #a32bef;
+  color: white;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0; /* Reset the default padding */
+  margin: 0; /* Reset the default margin */
+  display: flex;
+  flex-direction: column; /* Display links vertically */
+}
+
+nav ul li {
+  margin: 0; /* Reset the default margin */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding to create clickable area */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+  background-color: #8d1dca; /* Change background color on hover */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #a32bef;
+  transition: left 0.3s;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.content {
+  margin-left: 0px; /* Adjust margin to match the sidebar width */
+  padding: 0px; /* Add padding for content */
+}
+
+/* ... Your existing code ... */
+
+
+/* Add styling for the navigation links */
+ul {
+  list-style: none; 
+  padding: 15;
+}
+
+li {
+  padding: 20px;
+}
+  
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Add styling for the active link */
+a.active {
+  font-weight: bold;
+}
+
+/* .custom-close-icon {
+  color: white;
+} */
+
+
+
+
+
+
